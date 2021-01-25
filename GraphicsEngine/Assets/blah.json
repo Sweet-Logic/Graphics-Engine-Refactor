@@ -1,0 +1,46 @@
+{
+    "Type" : "SCENE",
+    "Name" : "Scene 1",
+
+    "SceneGraph" :
+    [
+        {
+            "ObjectName" : "PointLight",
+            "Component Count" : 2,
+            "Components" :
+            [
+                {
+                    "ComponentType" : "TRANSFORM",
+                    "Parameters" :
+                    {
+                        "Position" : "0.0,1.0,10.0",
+                        "Scale" : "1.0,1.0,1.0",
+                        "Rotation" : "0.0,90.0,45.0,0.1",
+                        "Parent" : 2
+                    }
+                },
+                {
+                    "ComponentType" : "POINT_LIGHT",
+                    "Parameters" :
+                    {
+                        "Ambient" : "0.2,0.2,0.2",
+                        "Diffuse" : "1.0,0.5,0.5",
+                        "Spectular" : "0.7,0.7,0.7",
+                        "Attenuatuion" : "1.0,0.0,0.0",
+                        "Intensity" : 10,
+                        "Range" : 1000,
+                    }
+                }
+            ]
+        }
+    ]
+}
+
+{
+    "Type" : "Scene List",
+    "Default" : -1,
+    "Scenes" : {
+        { "Name" : "Default 01", "File Path" : "/Scenes/Default_01.Json" },
+        { "Name" : "Scene 01, "Path" : "/Scenes/Scene_01.Json" }
+    }
+}

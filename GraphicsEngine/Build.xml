@@ -1,0 +1,340 @@
+<Object>
+    <ObjectType Name="CarBaseObject">
+        <Properties>
+            <Transform>
+                <Position_3Float>100,0,100</Position_3Float>
+                <Rotation_3Float>0,3.14,0</Rotation_3Float>
+                <Scale_3Float>1,1,1</Scale_3Float>
+            </Transform>
+            
+            <Acceleration>100.0f</Acceleration>
+            <BreakSpeed>20.0f</BreakSpeed>
+            <TurnSpeed>5.0f</TurnSpeed>
+        </Properties>
+        
+        <components>
+            <Mesh Name="CarModel">car.obj</Mesh>
+
+            <Light Name="LeftHeadLight">
+                <SpotLight>
+                    <Properties>
+                        <Ambient>0.2f,0.2f,0.2f,1.0f</Ambient>
+                        <Diffuse>1.0f,1.0f,1.0f,1.0f</Diffuse>
+                        <Specular>1.0f,1.0f,1.0f,1.0f</Specular>
+                        <Position>0.0f,10.0f,1.0f </Position>
+                        <Range>2000</Range>
+                        <Direction>1.0f, -0.1f, 0.5f</Direction>
+                        <Spot>96</Spot>
+                        <Attenuation>0.5f,0.0005f,0.0f</Attenuation>
+                    </Properties>
+                </SpotLight>
+            </Light>
+
+            <Light Name="RightHeadLight">
+                <SpotLight>
+                    <Properties>
+                        <Ambient>0.2f,0.2f,0.2f,1.0f</Ambient>
+                        <Diffuse>1.0f,1.0f,1.0f,1.0f</Diffuse>
+                        <Specular>1.0f,1.0f,1.0f,1.0f</Specular>
+                        <Position>0.0f,10.0f,1.0f </Position>
+                        <Range>2000</Range>
+                        <Direction>1.0f, -0.1f, 0.5f</Direction>
+                        <Spot>96</Spot>
+                        <Attenuation>0.5f,0.0005f,0.0f</Attenuation>
+                    </Properties>
+                </SpotLight>
+            </Light>
+
+            <Camera Name="FirstPersonCamera" Type="LookTo">
+                <Position_3Float>50,0,100</Position_3Float>
+                <Rotation_3Float>0,0,0</Rotation_3Float>
+                <Scale_3Float>1,1,1</Scale_3Float>
+                <LookDirection_3Float>0,0,1</LookDirection_3Float>
+                <FocusPointDistance>-1</FocusPointDistance>
+            </Camera>
+            
+            <Camera Name="ThirdPersonCamera" Type="LookAt">
+                <Position_3Float>0,50,100</Position_3Float>
+                <Rotation_3Float>0,0,0</Rotation_3Float>
+                <Scale_3Float>1,1,1</Scale_3Float>
+                <LookDirection_3Float>0,-0.25,0.8</LookDirection_3Float>
+                <FocusPointDistance>120</FocusPointDistance>
+            </Camera>
+        </components>
+
+    </ObjectType>
+</Object>
+
+<Object>
+    <Ball Name="BallObject">
+        <Properties>
+            <Transform>
+                <Position_3Float>-100,10,100</Position_3Float>
+                <Rotation_3Float>0,0,0</Rotation_3Float>
+                <Scale_3Float>1,1,1</Scale_3Float>
+            </Transform>
+        </Properties>
+        
+        <components>
+            <Mesh name="ballModel">ball.obj</Mesh>
+        </components>
+
+    </Ball>
+</Object>
+
+<Object>
+    <ObjectType Name="CurvedEdgeObject">
+        <Properties>
+            <Transform>
+                <Position_3Float>0.0,0.0,-1285.0</Position_3Float>
+                <Rotation_3Float>0,PI,0</Rotation_3Float>
+                <Scale_3Float>0.5,1.0,0.5</Scale_3Float>
+            </Transform>
+        </Properties>
+        
+        <components>
+            <Mesh Name="CurvedWallModel">CurvedWall.obj</Mesh>
+        </components>
+
+    </ObjectType>
+</Object>
+
+<Object>
+    <ObjectType Name="CurvedEdgeObject">
+        <Properties>
+            <Transform>
+                <Position_3Float>0.0,0.0,1285.0</Position_3Float>
+                <Rotation_3Float>0,0,0</Rotation_3Float>
+                <Scale_3Float>0.5,1.0,0.5</Scale_3Float>
+            </Transform>
+        </Properties>
+        
+        <components>
+            <Mesh Name="CurvedWallModel">CurvedWall.obj</Mesh>
+        </components>
+
+    </ObjectType>
+</Object>
+
+<Object>
+    <ObjectType Name="GoalObject">
+        <Properties>
+            <Transform>
+                <Position_3Float>0.0,0.0,-1285.0</Position_3Float>
+                <Rotation_3Float>0,PI,0</Rotation_3Float>
+                <Scale_3Float>0.5,1.0,0.5</Scale_3Float>
+            </Transform>
+        </Properties>
+        
+        <components>
+            <Mesh Name="GoalModel">goal.obj</Mesh>
+        </components>
+
+    </ObjectType>
+</Object>
+
+<Object>
+    <ObjectType Name="GoalObject">
+        <Properties>
+            <Transform>
+                <Position_3Float>0.0,0.0,1285.0</Position_3Float>
+                <Rotation_3Float>0,0,0</Rotation_3Float>
+                <Scale_3Float>0.5,1.0,0.5</Scale_3Float>
+            </Transform>
+        </Properties>
+        
+        <components>
+            <Mesh Name="GoalModel">goal.obj</Mesh>
+        </components>
+
+    </ObjectType>
+</Object>
+
+<Object>
+    <ObjectType Name="WallObject">
+        <Properties>
+            <Transform>
+                <Position_3Float>0.0,0.0,-1285.0</Position_3Float>
+                <Rotation_3Float>0,PI,0</Rotation_3Float>
+                <Scale_3Float>0.5,1.0,0.5</Scale_3Float>
+            </Transform>
+        </Properties>
+        
+        <components>
+            <Mesh Name="WallModel">wall.obj</Mesh>
+        </components>
+
+    </ObjectType>
+</Object>
+
+<Object>
+    <ObjectType Name="WallObject">
+        <Properties>
+            <Transform>
+                <Position_3Float>0.0,0.0,1285.0</Position_3Float>
+                <Rotation_3Float>0,0,0</Rotation_3Float>
+                <Scale_3Float>0.5,1.0,0.5</Scale_3Float>
+            </Transform>
+        </Properties>
+        
+        <components>
+            <Mesh Name="WallModel">wall.obj</Mesh>
+        </components>
+
+    </ObjectType>
+</Object>
+
+<Object>
+    <ObjectType Name="Billboard">
+        <Properties>
+            <Transform>
+                <Position_3Float>-100,0,100</Position_3Float>
+                <Rotation_3Float>0,0,0</Rotation_3Float>
+                <Scale_3Float>1,1,1</Scale_3Float>
+            </Transform>
+            <Texture2D>Pine Tree.dds</Texture2D>
+        </Properties>
+    </ObjectType>
+</Object>
+
+<Object>
+    <ObjectType Name="Billboard">
+        <Properties>
+            <Transform>
+                <Position_3Float>100,0,100</Position_3Float>
+                <Rotation_3Float>0,0,0</Rotation_3Float>
+                <Scale_3Float>1,1,1</Scale_3Float>
+            </Transform>
+            <Texture2D>Pine Tree.dds</Texture2D>
+        </Properties>
+    </ObjectType>
+</Object>
+
+<Object>
+    <ObjectType Name="Billboard">
+        <Properties>
+            <Transform>
+                <Position_3Float>-100,0,-100</Position_3Float>
+                <Rotation_3Float>0,0,0</Rotation_3Float>
+                <Scale_3Float>1,1,1</Scale_3Float>
+            </Transform>
+            <Texture2D>Pine Tree.dds</Texture2D>
+        </Properties>
+    </ObjectType>
+</Object>
+
+<Object>
+    <ObjectType Name="GrassObject">
+        <Properties>
+            <Transform>
+                <Position_3Float>0,0,0</Position_3Float>
+                <Rotation_3Float>0,0,0</Rotation_3Float>
+                <Scale_3Float>1,1,1</Scale_3Float>
+            </Transform>
+            <BoundsSize>4100,1,5500</BoundsSize>
+			<Density>700</Density>
+        </Properties>
+    </ObjectType>
+</Object>
+
+<Object>
+    <ObjectType Name="PlaneObject">
+        <Properties>
+            <Transform>
+                <Position_3Float>100,0,100</Position_3Float>
+                <Rotation_3Float>0,0,0</Rotation_3Float>
+                <Scale_3Float>1,1,1</Scale_3Float>
+            </Transform>
+            <Texture2D>Pine Tree.dds</Texture2D>
+            <Dimentions>5000,5000</Dimentions>
+            <WidthSegments>50</WidthSegments>
+            <LengthSegments>50</LengthSegments>
+        </Properties>
+    </ObjectType>
+</Object>
+
+<Object>
+    <ObjectType Name="CrateObject">
+        <Properties>
+            <Transform>
+                <Position_3Float>1000,0,1000</Position_3Float>
+                <Rotation_3Float>0,0,0</Rotation_3Float>
+                <Scale_3Float>1,1,1</Scale_3Float>
+            </Transform>
+            <Texture2D Type="Diffuse">crate_Diff.tga</Texture2D>
+            <Texture2D Type="Bump">crate_Bump.tga</Texture2D>
+        </Properties>
+    </ObjectType>
+</Object>
+
+<Object>
+    <ObjectType Name="SkyMap">
+        <Properties>
+            <Transform>
+                <Position_3Float>1000,0,1000</Position_3Float>
+                <Rotation_3Float>0,0,0</Rotation_3Float>
+                <Scale_3Float>1,1,1</Scale_3Float>
+            </Transform>
+            <Texture2D Type="Diffuse">skymap.dds</Texture2D>
+        </Properties>
+    </ObjectType>
+</Object>
+
+
+
+<Light>
+    <DirectionalLight>
+        <Properties>
+            <Ambient>0.1,0.1,0.1</Ambient>
+            <Diffuse>0.7,0.7,0.7</Diffuse>
+            <Specular>0.1,0.1,0.1</Specular>
+            <Direction>-0.7,-0.3,-0.7</Direction>
+            <Intensity>1</Intensity>
+        </Properties>
+    </DirectionalLight>
+</Light>
+
+<Light>
+    <PointLight>
+        <Properties>
+            <Ambient>0.2,0.2,0.2</Ambient>
+            <Diffuse>1,0.5,0.5</Diffuse>
+            <Specular>0.7,0.7,0.7</Specular>
+            <Position>0,500,1000</Position>
+            <Range>1000</Range>
+            <Attenuation>1,0,0</Attenuation>
+            <Intensity>10</Intensity>
+        </Properties>
+    </PointLight>
+</Light>
+
+<Light>
+    <PointLight>
+        <Properties>
+            <Ambient>0.2,0.2,0.2</Ambient>
+            <Diffuse>1,1,1</Diffuse>
+            <Specular>0.7,0.7,0.7</Specular>
+            <Position>1000,500,0</Position>
+            <Range>1000</Range>
+            <Attenuation>1,0,0</Attenuation>
+            <Intensity>1</Intensity>
+        </Properties>
+    </PointLight>
+</Light>
+
+
+<Light>
+    <SpotLight>
+        <Properties>
+            <Ambient>0.2,0.2,0.2,1.0</Ambient>
+            <Diffuse>1.0,0.0,0.0,1.0</Diffuse>
+            <Specular>1.0,1.0,1.0,1.0</Specular>
+            <Position>100.0,100.0,100.0</Position>
+            <Range>4000</Range>
+            <Direction>-1.0, -1.0, -1.0</Direction>
+            <Spot>100</Spot>
+            <Attenuation>1,0,0.0</Attenuation>
+            <Intensity>5</Intensity>
+        </Properties>
+    </SpotLight>
+</Light>

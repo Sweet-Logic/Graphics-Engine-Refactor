@@ -1,0 +1,27 @@
+{
+	"Count" : 2,
+	"ShaderGroups" : 
+		{
+		"ShaderGroupName" : "Shaders01",
+		"GroupID" : 1,
+		"Shaders" : {
+			Vertex : "Shaders/Lit.fx",
+			Hull : "",
+			Domain : "",
+			Geometry : "",
+			Pixel : "Shaders/Lit.fx",
+			Compute : "Shaders/Blur.fx"
+		},
+		{
+		"ShaderGroupName" : "Shaders02",
+		"GroupID" : 2,
+		"Shaders" : {
+			Vertex : "Shaders/UnLit.fx",
+			Hull : "",
+			Domain : "",
+			Geometry : "",
+			Pixel : "Shaders/UnLit.fx",
+			Compute : "Shaders/Blur.fx"
+		},
+	}
+}

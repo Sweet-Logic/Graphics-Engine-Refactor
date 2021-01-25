@@ -1,0 +1,83 @@
+{
+    "Assets" : 
+	{
+		{
+			"ID" : 0,
+			"Name" : "ball",
+			"Type" : 2,
+			"Path" : "$Models$\ball.obj",
+		},
+		{
+			"ID" : 1,
+			"Name" : "ball",
+			"Type" : 3,
+			"Path" : "$Materials$\ball.mtl",
+		},
+		{
+			"ID" : 2,
+			"Name" : "CarTextureMap",
+			"Type" : 1,
+			"Path" : "$Textures$\CarTextureMap.tga",
+		},
+		{
+			"ID" : 3,
+			"Name" : "ChainLink",
+			"Type" : 1,
+			"Path" : "$Textures$\ChainLink.dds",
+		},
+		{
+			"ID" : 4,
+			"Name" : "GrassTexture",
+			"Type" : 1,
+			"Path" : "$Textures$\GrassTexture.tga",
+		},
+		{
+			"ID" : 5,
+			"Name" : "normal",
+			"Type" : 1,
+			"Path" : "$Textures$\normal.tga",
+		},
+		{
+			"ID" : 6,
+			"Name" : "Pine Tree",
+			"Type" : 1,
+			"Path" : "$Textures$\Pine Tree.dds",
+		},
+		{
+			"ID" : 7,
+			"Name" : "skymap",
+			"Type" : 1,
+			"Path" : "$Textures$\skymap.dds",
+		},
+		{
+			"ID" : 8,
+			"Name" : "SkySphere",
+			"Type" : 1,
+			"Path" : "$Textures$\SkySphere.tga",
+		},
+		{
+			"ID" : 9,
+			"Name" : "test",
+			"Type" : 1,
+			"Path" : "$Textures$\test.tga",
+		},
+		{
+			"ID" : 10,
+			"Name" : "testdiff",
+			"Type" : 1,
+			"Path" : "$Textures$\testdiff.tga",
+		},
+		{
+			"ID" : 11,
+			"Name" : "torchMat",
+			"Type" : 1,
+			"Path" : "$Textures$\torchMat.tga",
+		},
+		{
+			"ID" : 12,
+			"Name" : "wallCurvetexture",
+			"Type" : 1,
+			"Path" : "$Textures$\wallCurvetexture.tga",
+		}
+	}
+}

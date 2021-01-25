@@ -1,0 +1,25 @@
+
+{
+	"Type" : "SCENE",
+	"Name" : "Default_01",
+	"ResourceID" : "0",
+	"Objects" : 
+	{
+		{
+			"ObjectName" : "Object",
+			"Components" : 
+			{
+				{
+					"ComponentType" : "Transform",
+					"Parameters" : 
+					{
+						"Position" : "0 0 0",
+						"Scale" : "0 0 0",
+						"Rotation" : "0 0 0 0",
+						"Parent" : -1
+					}
+				}
+			}
+		}
+	}
+}

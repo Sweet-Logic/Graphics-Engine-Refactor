@@ -1,0 +1,25 @@
+#ifndef _BASE_VERTEX_H_
+#define _BASE_VERTEX_H_
+
+#include <directxmath.h>
+#include <d3d11.h>
+
+using namespace DirectX;
+
+struct Vertex
+{
+	XMFLOAT3 Pos;
+	XMFLOAT2 TexCoords;
+	XMFLOAT4 Normal;
+	XMFLOAT3 Tangent;
+};
+
+static D3D11_INPUT_ELEMENT_DESC vertexLayout[] =
+{
+    { "POSITION",	0,	DXGI_FORMAT_R32G32B32_FLOAT,	0,	0,	D3D11_INPUT_PER_VERTEX_DATA,	0 },
+    { "TEXCOORD",	0,	DXGI_FORMAT_R32G32_FLOAT,		0,	12,	D3D11_INPUT_PER_VERTEX_DATA,	0 },
+    { "NORMAL",		0,	DXGI_FORMAT_R32G32B32A32_FLOAT,	0,	20,	D3D11_INPUT_PER_VERTEX_DATA,	0 },
+    { "TANGENT",	0,	DXGI_FORMAT_R32G32B32_FLOAT,	0,	36,	D3D11_INPUT_PER_VERTEX_DATA,	0 },
+};
+
+#endif //!_BASE_VERTEX_H_

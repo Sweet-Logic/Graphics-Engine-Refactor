@@ -1,0 +1,77 @@
+
+{
+	"Type" : "SCENE",
+	"Name" : "Default_01",
+	"ResourceID" : "0",
+	"Objects" : 
+	{
+		{
+			"ObjectName" : "Sun",
+			"ObjectID" : 0,
+			"Components" : 
+			{
+				{
+					"ComponentType" : "Transform",
+					"Parameters" : 
+					{
+						"Position" : "0 0 0",
+						"Scale" : "0 0 0",
+						"Rotation" : "0 0 0 0",
+						"Parent" : -1
+					}
+				}
+			}
+		},
+		{
+			"ObjectName" : "Earth",
+			"ObjectID" : 1,
+			"Components" : 
+			{
+				{
+					"ComponentType" : "Transform",
+					"Parameters" : 
+					{
+						"Position" : "0 10 0",
+						"Scale" : "0 0 0",
+						"Rotation" : "0 0 0 0",
+						"Parent" : 0
+					}
+				}
+			}
+		},
+		{
+			"ObjectName" : "Moon",
+			"ObjectID" : 2,
+			"Components" : 
+			{
+				{
+					"ComponentType" : "Transform",
+					"Parameters" : 
+					{
+						"Position" : "5 0 0",
+						"Scale" : "0 0 0",
+						"Rotation" : "0 0 0 0",
+						"Parent" : 1
+					}
+				}
+			}
+		},
+		{
+			"ObjectName" : "Mars",
+			"ObjectID" : 3,
+			"Components" : 
+			{
+				{
+					"ComponentType" : "Transform",
+					"Parameters" : 
+					{
+						"Position" : "0 0 1",
+						"Scale" : "0 0 0",
+						"Rotation" : "0 0 0 0",
+						"Parent" : 0
+					}
+				}
+			}
+		}
+	}
+}

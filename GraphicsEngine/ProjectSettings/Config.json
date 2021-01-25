@@ -1,0 +1,13 @@
+{
+	"Paths" : {
+		"Project" : "C:\Users\KIWe\Projects\University\Games Programming\Level 6\3D_Games_Engine_Refactor\FGGC-Framework"
+		"ProjectSettings" : "$Project$\ProjectSettings",
+		"Assets" : "$Project$\Assets",
+		"Scenes" : "$Assets$\Scenes",
+		"Models" : "$Assets$\Models",
+		"Textures" : "$Assets$\Textures",
+		"Materials" : "$Assets$\Materials",
+		"Shaders" : "$Assets$\Shaders",
+		"Audio" : "$Assets$\Audio",
+	}
+}

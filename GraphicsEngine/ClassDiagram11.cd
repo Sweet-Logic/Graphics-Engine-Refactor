@@ -1,0 +1,417 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Application">
+    <Position X="24.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BSzDCGoAiJqwyzwIMiEgBoKCDayXANeRACJAkOMESAQ=</HashCode>
+      <FileName>Application.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BillboardObject">
+    <Position X="12.5" Y="11.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAABAAAAwAACAAkACAABgBQggBQEIAgAAAAAQA=</HashCode>
+      <FileName>BillboardObject.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CameraObject">
+    <Position X="19" Y="6.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AQQAAAAAIAAABQEAAAAAAhAAgCACAAAABAAAAAAAQAA=</HashCode>
+      <FileName>CameraObject.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CarBaseObject">
+    <Position X="6.5" Y="7.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAQQAIACAAABA0AAACAEAAAAEAAAAEIACACEAAAECAA=</HashCode>
+      <FileName>CarBaseObject.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CrateObject">
+    <Position X="21" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAgAAAQAAAAAAAACAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CrateObject.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CubeObject">
+    <Position X="12.5" Y="7.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAQAAIAAAAAAAwCAAAAAAAACAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CubeObject.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CurvedEdgeObject">
+    <Position X="3.5" Y="11.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAQAAIAIAAAAAwAAAAAAAAAAAgAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CurvedEdgeObject.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GoalObject">
+    <Position X="15.5" Y="12.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAQBAIAAAAAAAwAAAAAAAAAAIAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>GoalObject.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GrassObject">
+    <Position X="9.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABQBEACABAABAwAEAAE0AAAggAQRgwAQAAAkAAACAQI=</HashCode>
+      <FileName>GrassObject.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="IDrawable">
+    <Position X="9.75" Y="17.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAQAQAAAAAACgIAAAAAAAEAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IDrawable.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="InputManager">
+    <Position X="28.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAAAAAABAAAAAAAAAABAAAAAEAAAAgIAAAAAA=</HashCode>
+      <FileName>InputManager.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PlaneObject">
+    <Position X="3.5" Y="7.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAQAAIAAAAAAAwAAAAAAAAAAEAAAAAAAAAAAAAAABAA=</HashCode>
+      <FileName>PlaneObject.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PyrimidObject">
+    <Position X="6.5" Y="13.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAQAAIIAAAAAAwAAAAAIAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>PyrimidObject.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SceneObject">
+    <Position X="9.75" Y="0.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAQIAAQAkACAAUAQCgACAQAAgEAARAgUIAAQIAgAACA=</HashCode>
+      <FileName>SceneObject.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MaterialLibaryLoader">
+    <Position X="22.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEEAEAAAAAAAAAAAAIAAAAARBAAgAAAAAAAAAAEEAA=</HashCode>
+      <FileName>MaterialLibaryLoader.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MeshComponent">
+    <Position X="21" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIgAAEAgEICAAgADAAAAAAAgACgAAgAAAAAIEICAQAA=</HashCode>
+      <FileName>MeshComponent.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ObjLoader">
+    <Position X="41.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEABAAAAAAAAAAAAAAIAAAFABAgAAAAAAAAAEAAAA=</HashCode>
+      <FileName>ObjLoader.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Shader">
+    <Position X="26.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QIAAACAAAAAAAAAAAAAAAACgAAAAAAAABAAIABAAAAA=</HashCode>
+      <FileName>Shader.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ShaderManager">
+    <Position X="43.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEgIAAAAACAIQAAAAAAAAABAAAAAAAAAAAABAgAAA=</HashCode>
+      <FileName>ShaderManager.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ShadowMap">
+    <Position X="41.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAgBBAAAAABAAABgAAAABAQAAAkAAAAAAI=</HashCode>
+      <FileName>ShadowMap.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SkyMapObject">
+    <Position X="18.5" Y="10.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAgBAAwAAAAAFAAABAAABDACQAAAAAAACSAA=</HashCode>
+      <FileName>SkyMapObject.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Texture2D">
+    <Position X="45.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAECBQAEAQAAAAAAAABAYAAAgAAAAAAAAEEAACA=</HashCode>
+      <FileName>Texture2D.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WallObject">
+    <Position X="15.5" Y="7.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAQAAIABAwAAAwAAAAAAAAAAAAAAAACAAAAAAAAEAAQ=</HashCode>
+      <FileName>WallObject.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="XML::XMLReader">
+    <Position X="43.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQAAAAAAAAAAAAAEQAAgAAAAAACAAAAAAAAE=</HashCode>
+      <FileName>XMLReader.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BallObject">
+    <Position X="1.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAIAAAAAAAwAAAAAAACAAAAAAAAAAAgAAAAAAAAA=</HashCode>
+      <FileName>BallObject.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="DDS_PIXELFORMAT" Collapsed="true">
+    <Position X="35.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAAAAAAQAAAIAAAAAAAAAAAAAAAAAAACAFIAQ=</HashCode>
+      <FileName>DDSTextureLoader.cpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="DDS_HEADER" Collapsed="true">
+    <Position X="32.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAASAAAAAAAgQIQIAAIAAEgAAAAAAAAAAQIAAAAAQ=</HashCode>
+      <FileName>DDSTextureLoader.cpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="DDS_HEADER_DXT10" Collapsed="true">
+    <Position X="34" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAgAAAAAAACAAAAAAAAAAAQAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>DDSTextureLoader.cpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="BoundingSphere">
+    <Position X="34" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAIAAA=</HashCode>
+      <FileName>Application.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="BillboardData">
+    <Position X="32" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAgAAAAABAgAAAAAAAAAAIAAAAAAAA=</HashCode>
+      <FileName>BillboardObject.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="CBFrame">
+    <Position X="30" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAIAAAQAAAACIAAAQAgQABAAAAACAABAAQAAA=</HashCode>
+      <FileName>Buffers.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="CBObject">
+    <Position X="32" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQAAAAAJAAAABAAAAAAgAAAAAAAAAAAIAAA=</HashCode>
+      <FileName>Buffers.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="ConstantBufferSFX">
+    <Position X="26.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAQAAAAAAAAIAAAAAAAAAAAAAACAAABACAAA=</HashCode>
+      <FileName>Buffers.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="ConstantBufferBrightnessMapping">
+    <Position X="39.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAQAAAAAAAAAABAAAAAAAAAAAAAAAABAAAAA=</HashCode>
+      <FileName>Buffers.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="CBBillboardFrame">
+    <Position X="39.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAA=</HashCode>
+      <FileName>Buffers.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="CBPerBillboard">
+    <Position X="34" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAAAAAAgAAAAAAAAAAkACAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Buffers.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="CBPerGrass">
+    <Position X="35.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAgAAAUAAAAAAAAAAAAAAAAAAAAAAk=</HashCode>
+      <FileName>Buffers.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="DirectionalLight">
+    <Position X="39.25" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAQAAAAAAAAAAAiAAAAAIAAAAAAAAAAAAAEAAAAA=</HashCode>
+      <FileName>Lighting.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="PointLight">
+    <Position X="30.25" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAAAAACAAgAgAAAAAIAAAAAAAAAAAAIUAAAAA=</HashCode>
+      <FileName>Lighting.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="SpotLight">
+    <Position X="34" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAAAAACAAgAiAAAAAIAAAAAAAAAAgAAUAAAAA=</HashCode>
+      <FileName>Lighting.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="MatrialForCB">
+    <Position X="43.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAAAAAAAAAAgAAAAABAAAAABAAAAAAAEAAAAA=</HashCode>
+      <FileName>Lighting.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="List&lt;T&gt;">
+    <Position X="35.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAIAAAI=</HashCode>
+      <FileName>LinkedList.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="Material">
+    <Position X="41.25" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAEAAAAEAAQAgAAAAAAAAACQAAgEEABAAAEAAAA=</HashCode>
+      <FileName>MaterialLibaryLoader.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="Libary">
+    <Position X="26.5" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEAAAAAAAAAAQAAAAAAAAAAAAAAQAAAAAAA=</HashCode>
+      <FileName>MaterialLibaryLoader.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="Mesh">
+    <Position X="28.25" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAQAAAAAAAAI=</HashCode>
+      <FileName>Mesh.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="Group">
+    <Position X="26.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAAAAAAAAAAAAAAAAAAAAAAEAAACAAAAAAAA=</HashCode>
+      <FileName>MeshComponent.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="FileInput">
+    <Position X="28.25" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABAAIiAAAAAAAAAAQAAAAAAAAAAAAAAI=</HashCode>
+      <FileName>ObjLoader.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="Processed">
+    <Position X="37.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAAgAAAAAAgAAAAAAAABAAAAAAAAAAI=</HashCode>
+      <FileName>ObjLoader.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="Object">
+    <Position X="26.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAACAAAgAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ObjLoader.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="TargaHeader">
+    <Position X="37.5" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAQAAAAAAAAAAAAgAAAAABAAAABAA=</HashCode>
+      <FileName>Texture2D.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="Vertex">
+    <Position X="39.25" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAIAAAAAAACIAAACAAAAAAAAAAA=</HashCode>
+      <FileName>VertexTypes.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="ScreenVertex">
+    <Position X="39.25" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAIAAAAAAACAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>VertexTypes.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="`anonymous-namespace'::handle_closer" Collapsed="true">
+    <Position X="32.25" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DDSTextureLoader.cpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="XML::Parameters">
+    <Position X="28.25" Y="9.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>XMLReader.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="XML::Tag">
+    <Position X="35.75" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAKAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAiAAAA=</HashCode>
+      <FileName>XMLReader.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Enum Name="DDS_MISC_FLAGS2" Collapsed="true">
+    <Position X="32.25" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAA=</HashCode>
+      <FileName>DDSTextureLoader.cpp</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Type" Collapsed="true">
+    <Position X="35.75" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAE=</HashCode>
+      <FileName>CameraObject.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Map" Collapsed="true">
+    <Position X="34" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAAIAAQAAAAAAAAAAAEAAAAAAAAAAAAAQCAA=</HashCode>
+      <FileName>MaterialLibaryLoader.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="DirectX::DDS_ALPHA_MODE" Collapsed="true">
+    <Position X="30.5" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAAAAAAAAACAAAAAQAAAQAAAAAAAAABA=</HashCode>
+      <FileName>DDSTextureLoader.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

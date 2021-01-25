@@ -1,0 +1,22 @@
+{
+	"DefaultScene" : 2,
+	"Scenes" : 
+	{
+		{
+			"SceneID" : 1,
+			"Name" : "Default_01",
+			"FilePath" : "$Scenes$/Default_01.json"
+		},
+		{
+			"SceneID" : 2,
+			"Name" : "Main",
+			"FilePath" : "$Scenes$/Main.json"
+		},
+		{
+			"SceneID" : 3,
+			"Name" : "Menu",
+			"FilePath" : "$Scenes$/Menu.json"
+		}
+		
+	}
+}

@@ -1,0 +1,19 @@
+{
+    "AssetPaths" :
+    [
+        "$ProjectRoot$/Assets"
+    ]
+
+
+    "Known Assets" :
+    [
+        "/Models/Cube"
+    ]
+
+    "MetaData" :
+    {
+        "ID" : 000000000000001,
+        "EditorName" : "DefualtCube",
+        "Extention" : "obj"
+    }
+}
